@@ -100,12 +100,19 @@ img {
 /* Breakpoint for mobile devices */
 
 @media screen and (max-width: 600px) {
+    body {
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+    }
     main {
         display: flex;
-        min-height: min-content;
+        min-height: fit-content;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         padding: 5rem;
     }
     .header {
