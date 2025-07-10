@@ -103,17 +103,16 @@ img {
     main {
         display: flex;
         min-height: min-content;
-        min-height: -webkit-min-content;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-bottom: 2rem;
+        padding-bottom: 5rem;
     }
     .header {
         width: 80vw;
         display: inline;
         padding: 0;
-        margin: 1rem 0 0rem;
+        margin: 0 0rem;
     }
     .headpara {
         margin: 0;
