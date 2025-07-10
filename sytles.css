@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --grey500: hsl(234, 12%, 34%);
+    --grey400: hsl(212, 6%, 44%);
+    --white: hsl(0, 0%, 100%);
+    font-family: "Poppins", sans-serif;
+    color: var(--grey400);    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem 10rem 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+main {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10rem 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    grid-row-gap: 2rem;
+}
+
+.header {
+    align-self: center;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1 / 6;
+    justify-content: center;
+    line-height: 0.8rem; 
+    padding: 19rem;
+    margin-bottom: 2rem;
+
+}
+h1 p {
+    font-weight: normal;
+}
+h1 span {
+    color: var(--grey500)
+}
+.headpara {
+    margin-top: 2rem;
+    line-height: 1.5rem;;
+    font-weight: 500;
+    padding: 0 10rem;
+}
+.supervisor, .builder, .karma, .calculator {
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 1rem #dce6ef;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 25rem;
+}
+h2 {
+    color: var(--grey500);
+    font-weight: 600;
+    margin-bottom: -0.5rem
+}
+
+.supervisor {
+    place-content: center;
+    border-top: 5px solid var(--cyan);
+    grid-column: 2;
+    grid-row: 2 / 4;
+    align-self: center;
+    justify-self: end;
+}
+
+.builder {
+    border-top: 5px solid var(--red);
+    grid-column: 3;
+    grid-row: 2/3;
+
+}
+
+.karma {
+    border-top: 5px solid var(--orange);
+    grid-column: 3;
+    grid-row: 3 / 4;
+}
+.calculator {
+    border-top: 5px solid var(--blue);
+    grid-column:  4;
+    grid-row: 2 / 4;
+}
+
+img {
+    margin: 2rem 1rem 2rem 15rem;
+}
+
+/* Breakpoint for mobile devices */
+
+@media screen and (max-width: 600px) {
+    main {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header {
+        width: 80vw;
+        display: inline;
+        padding: 0;
+        margin: 0;
+    }
+    .headpara {
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
