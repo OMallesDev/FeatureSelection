@@ -36,11 +36,12 @@ main {
     margin-bottom: 2rem;
 
 }
-h1 p {
-    font-weight: normal;
+.reliable {
+    font-weight: 400;
+    font-size: 1.5rem
 }
-h1 span {
-    color: var(--grey500)
+.powered {
+    color: var(--grey500);
 }
 .headpara {
     margin-top: 2rem;
