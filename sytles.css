@@ -104,6 +104,7 @@ img {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        row-gap: 1rem;
     }
     .header {
         width: 90vw;
