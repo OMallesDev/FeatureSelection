@@ -102,16 +102,17 @@ img {
 @media screen and (max-width: 600px) {
     main {
         display: flex;
-        height: 100vh;
+        min-height: min-content;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-bottom: 2rem;
     }
     .header {
         width: 80vw;
         display: inline;
         padding: 0;
-        margin: 0;
+        margin: 1rem 0 0rem;
     }
     .headpara {
         margin: 0;
