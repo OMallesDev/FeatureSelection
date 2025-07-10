@@ -106,18 +106,18 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-bottom: 5rem;
+        padding: 0;
     }
     .header {
-        width: 80vw;
+        width: 90vw;
         display: inline;
-        padding: 1rem;
-        margin: 0 0rem;
+        padding: 0rem;
+        margin: 0;
         font-size: 0.9rem;
         line-height: 1.5rem;
     }
     .headpara {
-        margin: 0;
+        margin: auto;
         padding: 0;
     }
 
