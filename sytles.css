@@ -93,7 +93,7 @@ img {
 
 /* Breakpoint for mobile devices */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 38rem) {
     body {
         padding: 0;
         width: 100vw;
