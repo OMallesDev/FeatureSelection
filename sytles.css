@@ -111,8 +111,10 @@ img {
     .header {
         width: 80vw;
         display: inline;
-        padding: 0;
+        padding: 1rem;
         margin: 0 0rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
     }
     .headpara {
         margin: 0;
